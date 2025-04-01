@@ -25,8 +25,8 @@ public class SigninPageTestCase {
 
 	@When("user enter valid username and valid password")
 	public void user_enter_valid_username_and_valid_password() {
-		obj.enterUserName("rushikeshkulkarni06@gmail.com");
-	    obj.enterPassword("Rushi@123");
+		obj.enterUserName("pratikcoolkarni123@gmail.com");
+	    obj.enterPassword("Pratik@123");
 	}
 
 	@When("click on signin button")
@@ -46,8 +46,8 @@ public class SigninPageTestCase {
 
 	@When("user enter valid username and invalid password")
 	public void user_enter_valid_username_and_invalid_password() {
-		obj.enterUserName("rushikeshkulkarni06@gmail.com");
-	    obj.enterPassword("Rushi@1234");
+		obj.enterUserName("pratikcoolkarni123@gmail.com");
+	    obj.enterPassword("Pratik@123");
 	}
 
 	@Then("user should not be logged in")
